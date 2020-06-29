@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+/*  Definiendo el estilo de los tags    */
+body{
+    background-color: #f2f2f2;
+    color: #2f3f52;
+}
+body,p{
+    margin: 0;
+}
+body,input{
+    font-family: 'Jost', sans-serif;
+}
+header{
+    
+    background-color: white;
+}
+aside{
+    /*position: fixed;*/
+    right: 0;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul{
+    padding-left: 1rem;
+}
+li{
+    display: inline;
+    margin-right: 1rem;
+}
+input{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+}
+input::placeholder{
+    color: #b7b7b7;
+}
+#menu a{
+    color: #b7b7b7;
+}
+#menu a:hover{
+    color: #0072f3;
+}
+/*  Definiedo clases */
+.container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+#logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card{
+    margin-top: 32px;
+    border-radius: 16px;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    padding: 32px 32px;
+}
+.carousel{
+    border-radius: 16px;
+    background-color: white;
+    width: 90%;
+    height: 250px;
+    padding: 32px 32px;
+}
+.header-card{
+    display: flex;
+    align-items: center;
+}
+.header-card img{
+    width: 2rem;
+    margin-right: 1rem;
+}
+.social-bar{
+    width: 200px;
+    padding: 8px 32px;
+    background: white;
+    display: flex;
+    align-items: center;
+}

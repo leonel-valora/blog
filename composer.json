@@ -1,0 +1,6 @@
+{
+    "autoload": {},
+    "require": {
+        "grithin/phproute": "^2.0"
+    }
+}

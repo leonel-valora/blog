@@ -1,0 +1,105 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "13ae51b9315f7dd72e7123a9e047c636",
+    "packages": [
+        {
+            "name": "grithin/phpbase",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grithin/phpbase.git",
+                "reference": "284755d1e79f7e7e0b456fca12f8923df7d1430e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grithin/phpbase/zipball/284755d1e79f7e7e0b456fca12f8923df7d1430e",
+                "reference": "284755d1e79f7e7e0b456fca12f8923df7d1430e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Grithin\\": [
+                        "src/",
+                        "src/traits/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Adam F Frederick",
+                    "email": "bob_bf2@deemit.com"
+                }
+            ],
+            "description": "PHP Base Tools.",
+            "homepage": "http://devtools.grithin.com",
+            "keywords": [
+                "php tools"
+            ],
+            "time": "2018-05-14T18:00:40+00:00"
+        },
+        {
+            "name": "grithin/phproute",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grithin/phproute.git",
+                "reference": "d3d148097e323ca2c9aa8884bdf33fa40900594a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grithin/phproute/zipball/d3d148097e323ca2c9aa8884bdf33fa40900594a",
+                "reference": "d3d148097e323ca2c9aa8884bdf33fa40900594a",
+                "shasum": ""
+            },
+            "require": {
+                "grithin/phpbase": ">=3.0.0",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Grithin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Adam F Frederick",
+                    "email": "bob_bf2@deemit.com"
+                }
+            ],
+            "description": "PHP Web Router.",
+            "homepage": "http://devtools.grithin.com",
+            "keywords": [
+                "php web router",
+                "routing"
+            ],
+            "time": "2017-01-08T15:18:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
